@@ -18,3 +18,10 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
+        
+    - name: list the files
+      run: ls -ltr
+      
+    - name: place a text file
+      run: |
+        cp hello.txt ./artifacts
