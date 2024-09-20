@@ -20,7 +20,7 @@ jobs:
         path: hello.txt
         
     - name: list the files
-      run: ls -ltr
+      run: ls -lta
       
     - name: place a text file
       run: |
